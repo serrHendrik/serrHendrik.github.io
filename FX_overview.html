@@ -2,4 +2,18 @@
 title: FX
 ---
 
-This is an overview of the articles written about the FX market.
+<h1>Data Science for the Foreign Exchange Market</h1>
+
+<ul>
+    {% assign posts = site.posts | where: 'category', "fx" %}
+    {% for post in posts %}
+        <li>
+            <h2>
+                <a href="{{ post.url }}">
+                {{ post.title }}
+                </a>
+            </h2>
+            {{ post.excerpt }}
+        </li>
+    {% endfor %}
+</ul>
