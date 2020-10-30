@@ -1,10 +1,8 @@
-- name: Home
+- name: Manifest
   link: /
 - name: FX
-  link: /FX_overview.html
-- name: A hacker's life
-  link: /blog.html
-- name: About
-  link: /about.html
-- name: Staff
-  link: /staff.html
+  link: /fx
+- name: Resume
+  link: /resume
+- name: Contact
+  link: /contact

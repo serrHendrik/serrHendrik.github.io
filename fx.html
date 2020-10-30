@@ -1,0 +1,17 @@
+---
+title: FX
+permalink: /fx
+---
+
+<h1>Data Science for the Foreign Exchange Market</h1>
+
+<ol>
+    {% assign posts = site.posts | where: 'category', "fx" %}
+    {% for post in posts %}
+    <a href="{{ post.url }}">
+        <li>
+            {{ post.title }}
+        </li>
+    </a>
+    {% endfor %}
+</ol>

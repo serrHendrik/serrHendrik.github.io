@@ -177,6 +177,10 @@ ul li {
   list-style-image:url('../images/bullet.png');
 }
 
+ol a {
+  text-decoration: none;
+}
+
 blockquote {
   color: $blockquote-color;
   padding-left: 10px;
